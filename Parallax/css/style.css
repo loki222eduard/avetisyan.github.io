@@ -1,0 +1,164 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #fff;
+	overflow-x: hidden;
+}
+.hero-image{
+	width: 100%;
+	background: url(../img/background.png) no-repeat 50% 50%;
+	height: 100vh;
+	background-size: cover;
+	position: absolute;
+}
+.parallax-el{
+	background: url(../img/men.png) no-repeat 50% 50%;
+	background-size: contain;
+	position: absolute;
+	width: 100%;
+	height: 70%;
+	top: 40%;
+}
+.text{
+	background: url(../img/text.png) no-repeat 50% 50%;
+	background-size: contain;
+	width: 100%;
+	height: 40%;
+	position: absolute;;
+	top: 42%;
+}
+.clouds{
+	background: url(../img/clouds.png) no-repeat 50% 50%;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+}
+.whitespace{
+	width: 100%;
+	height: 100vh;
+}
+.content{
+	background: #fff;
+	height: 100vh;
+	width: 100%;
+	margin: 0 auto;
+	padding: 80px 0;
+	font-family: sans-serif;
+	height: 100vh;
+	position: absolute;
+	z-index: 1000;
+}
+p{
+	line-height: 40px;
+	text-align: justify;
+}
+.content img{
+	width: 100%
+}
+.content .content-container{
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 100px;
+}
+.text-container p{
+	font-size: 14px;
+	opacity: 0.6;
+}
+.explore-btn{
+	border: 1px solid #e2e2e2 !important;
+	color: #6ab1f3;
+}
+.img-container .row{
+	margin-left: 40px;
+	width: 120%;
+}
+.image-small{
+	margin-top: 50px;
+	opacity: 0.8;
+}
+.footer{
+	margin-top: 7%;
+	width: 100%;
+	height: 24%;
+	background-color: #B4B4B4;
+}
+.foot-text{
+	display: inline-block;
+	margin-left: 45%;
+	margin-top: 4%;
+	text-align: center;
+	text-align: right;
+	font-size: 15px;
+	color: #4e4e4e;
+}
+.footer i {
+	display: inline-block;
+	margin-left: 10%;
+	margin-bottom:  -20%;
+	font-size: 50px;
+	color: #4e4e4e;
+}
+.footer h3{
+	display: inline-block;
+	font-size: 50px;
+}
+.footer a li{
+	margin-left: 1%;
+	font-size: 10px;
+	list-style: none;
+	display: inline-block;
+}
+.icons{
+	display: inline-block;
+	width: 10px;
+	height: 100%;
+	font-size: 5px;
+}
+.icons i{
+	font-size: 30px;
+	line-height: 50px;
+}
+.icons .fac{
+	color: #1f4d9b;
+}
+.icons .ins{
+	color: #cf2f7c;
+}
+.icons .twi{
+	color: #3fa6db;
+}
+@media only screen and (max-width: 520px){
+	.parallax-el{
+		background-size: cover;
+	}
+
+	.img-container .row{
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.whitespace{
+		height: 86vh;
+	}
+
+	.text{
+		width: 94%;
+		left: 5vw;
+		height: 23vh;
+	}
+
+	.content{
+		padding: 0;
+	}
+
+	.content-container{
+		padding-top: 0;
+		text-align: center;
+	}
+
+	.img-small{
+		margin-top: 5px;
+	}
+}
