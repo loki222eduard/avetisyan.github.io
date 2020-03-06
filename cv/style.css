@@ -1,0 +1,355 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+*{
+	font-family: sans-serif;
+}
+.rectangle{
+	width: 100%;
+	height: 160px;
+	background: #17202A;
+}
+.round{
+	border-radius: 130px;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 20px;
+	left: 100px;
+}
+.top{
+	color: #fff;
+	position: absolute;
+	top: 30px;
+	left: 400px;
+}
+.name{
+	color: #fff;
+	position: absolute;
+	top: 70px;
+	left: 402px;
+}
+.person{
+	color: #808B96;
+	position: absolute;
+	left: 200px;
+}
+.hr{
+	width: 450px;
+	position: absolute;
+	left: -150px;
+}
+.phone{
+	font-size: 25px;
+	position: absolute;
+	top: 250px;
+	left: 100px;
+}
+.mail{
+	position: absolute;
+	top: 290px;
+	left: 100px;
+	font-size: 20px;
+}
+.location{
+	position: absolute;
+	top: 330px;
+	left: 100px;
+	font-size: 27px;
+}
+.number{
+	position: absolute;
+	top: 255px;
+	left: 140px;
+	font-size: 18px;
+}
+.mymaill{
+	position: absolute;
+	top: 292px;
+	left: 140px;
+	font-size: 18px;
+}
+.mylocation{
+	position: absolute;
+	top: 334px;
+	left: 140px;
+	font-size: 18px;
+}
+.skills{
+	color: #808B96;
+	position: absolute;
+	left: 150px;
+	top: 400px;
+}
+.hr2{
+	width: 460px;
+	position: absolute;
+	left: -100px;
+}
+.skills2{
+	color: #000;
+	position: absolute;
+	top: 470px;
+	left: 100px;
+}
+.rectangle1{
+	width: 200px;
+	height: 7px;
+	background: #D4AC0D;
+	position: absolute;
+	top: 490px;
+	left: 270px;
+	border-radius: 10px;
+}
+.rectangle2{
+	width: 200px;
+	height: 7px;
+	background: #28B463;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	border-radius: 10px;
+}
+.rectangle3{
+	width: 170px;
+	height: 7px;
+	background: #CB4335;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	border-radius: 10px;
+}
+.rectangle4{
+	width: 180px;
+	height: 7px;
+	background: #2471A3;
+	position: absolute;
+	top: 32px;
+	left: 0px;
+	border-radius: 10px;
+}
+.rectangle5{
+	width: 130px;
+	height: 7px;
+	background: #BA4A00;
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	border-radius: 10px;
+}
+.rectangle6{
+	width: 180px;
+	height: 7px;
+	background: #273746;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	border-radius: 10px;
+}
+.personskills{
+	position: absolute;
+	top: 50px;
+	left: -100px;
+	color: #808B96;
+}
+.hr3{
+	width: 470px;
+	position: absolute;
+	left: -120px;
+}
+.sk{
+	color: #000;
+	position: absolute;
+	left: -80px;
+}
+.lang{
+	position: absolute;
+	top: 220px;
+	left: -100px;
+	color: #808B96;
+}
+.hr4{
+	width: 470px;
+	position: absolute;
+	left: -120px;
+}
+.rectangleengl{
+	width: 150px;
+	height: 30px;
+	background: #117A65;
+	position: absolute;
+	top: 300px;
+	left: -200px;
+}
+.engl{
+	color: #fff;
+	position: absolute;
+	top: 290px;
+	left: -160px;
+	font-size: 18px;
+}
+.rectanglerus{
+	width: 150px;
+	height: 30px;
+	background: #1F618D;
+	position: absolute;
+	top: 350px;
+	left: -200px;
+}
+.rus{
+	color: #fff;
+	position: absolute;
+	top: 340px;
+	left: -160px;
+	font-size: 18px;
+}
+.rectanglearm{
+	width: 150px;
+	height: 30px;
+	background: #B03A2E;
+	position: absolute;
+	top: 400px;
+	left: -200px;
+}
+.arm{
+		color: #fff;
+	position: absolute;
+	top: 390px;
+	left: -160px;
+	font-size: 18px;
+}
+.rectangleskillsarm{
+	width: 170px;
+	height: 20px;
+	background: #EC7063;
+	position: absolute;
+	top: 407px;
+	left: 0px;
+	border-radius: 20px;
+
+}
+.rectangleskillsrus{
+	width: 170px;
+	height: 20px;
+	background: #5499C7;
+	position: absolute;
+	top: 357px;
+	left: 0px;
+	border-radius: 20px;
+}
+.rectangleskillseng{
+	width: 140px;
+	height: 20px;
+	background: #45B39D;
+	position: absolute;
+	top: 307px;
+	left: 0px;
+	border-radius: 20px;
+}
+.fb{
+	position: absolute;
+	top: 60px;
+	left: 200px;
+	height: 25px;
+	width: 25px;
+}
+.insta1{
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 120px;
+	left: 450px;
+}
+.vertical{
+	height: 950px;
+	position: absolute;
+	left: 500px;
+	top: -450px;
+}
+.summary{
+	color: grey;
+	position: absolute;
+	left: 530px;
+	top: -480px;
+}
+.numbers{
+	position: absolute;
+	top: -450px;
+	left: 510px;
+	font-size: 20px;
+}
+.summaryhr{
+	width: 950px;
+	position: absolute;
+	top: 50px;
+}
+.pre{
+	top: 10px;
+}
+.education{
+	color: grey;
+	position: absolute;
+	left: 530px;
+	top: -150px;
+}
+.educationhr{
+	width: 950px;
+	position: absolute;
+	top: 50px;
+}
+.design{
+	position: absolute;
+	top: -80px;
+	right: -460px;
+	color: grey;
+}
+.ITC{
+	position: absolute;
+	top: -40px;
+	right: -710px;
+	color: #000;
+	font-size: 18px;
+}
+.university{
+	position: absolute;
+	top: -40px;
+	right: -1100px;
+	font-size: 17px;
+}
+.day{
+	position: absolute;
+	top: -78px;
+	right: -1095px;
+	font-size: 17px;
+}
+.info{
+	color: grey;
+	position: absolute;
+	right: -615px;
+	top: 10px;
+}
+.infohr{
+	width: 950px;
+	position: absolute;
+	top: 50px;
+}
+.logo{
+	position: absolute;
+	right: -630px;
+	top: 80px;
+}
+.hobby{
+	color: grey;
+	position: absolute;
+	right: -615px;
+	top: 200px;
+}
+.hobbyhr{
+	width: 950px;
+	position: absolute;
+	top: 50px;
+}
+.sport{
+	position: absolute;
+	right: -460px;
+	top: 300px;
+	font-size: 20px;
+}
